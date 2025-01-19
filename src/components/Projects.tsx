@@ -6,26 +6,26 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Análise Preditiva de Vendas",
-      description: "Modelo de machine learning para previsão de vendas utilizando séries temporais e análise de fatores sazonais.",
-      tech: ["Python", "Scikit-learn", "Pandas", "Prophet"],
-      github: "https://github.com/seu-usuario/projeto-vendas",
+      title: "Análise preditiva de preços de diamantes",
+      description: "Análise e investigação das relações entre as variáveis de um conjunto de dados de diamantes e prever os preços com base em variáveis como o peso (WEIGHT) e características categóricas (como COLOR e RATE). Para melhorar o desempenho preditivo e lidar com multicolinearidade, foram aplicadas técnicas de regularização (Ridge, Lasso e ElasticNet)..",
+      tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib","Seaborn"],
+      github: "https://github.com/eddieHerman-lab/Analise_Diamantes",
+      live: "#",
+      image: ""
+    },
+    {
+      title: "Sistema de recomendação de filmes",
+      description: "Este projeto implementa um sistema de recomendação utilizando várias abordagens, incluindo recomendações colaborativas simples, baseadas em conteúdo, híbridas e de popularidade. O sistema foi desenvolvido utilizando Python, Flask e Streamlit. .",
+      tech: ["Python", "Streamlit", "Flask", "Machine learning"],
+      github: "https://github.com/eddieHerman-lab/recommender_system_project",
       live: "#",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=500"
     },
     {
-      title: "Dashboard de Métricas",
-      description: "Dashboard interativo para visualização de KPIs e métricas de negócio em tempo real.",
-      tech: ["Power BI", "SQL", "DAX", "Python"],
-      github: "https://github.com/seu-usuario/dashboard-metricas",
-      live: "#",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=500"
-    },
-    {
-      title: "Classificação de Imagens",
+      title: "Analise Exploratorio de vicio de estudantes",
       description: "Sistema de classificação de imagens utilizando deep learning e redes neurais convolucionais.",
-      tech: ["TensorFlow", "Keras", "OpenCV", "NumPy"],
-      github: "https://github.com/seu-usuario/classificacao-imagens",
+      tech: ["Python", "Numpy", "pandas", "Matplotlib","Machine learning"],
+      github: "https://github.com/eddieHerman-lab/Analise_Student_addiction_Dataset",
       live: "#",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=500"
     }
