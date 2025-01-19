@@ -10,9 +10,12 @@ const About = () => {
         <Card className="max-w-3xl mx-auto bg-secondary/50">
           <CardContent className="p-6">
             <p className="text-lg leading-relaxed">
-              Sou um desenvolvedor apaixonado por criar soluções digitais inovadoras.
-              Com experiência em desenvolvimento web full stack, busco sempre aprender
-              novas tecnologias e aprimorar minhas habilidades.
+              Sou um Cientista de Dados apaixonado por transformar dados em insights
+              acionáveis. Com experiência em análise de dados, machine learning e
+              visualização de dados, busco constantemente desenvolver soluções que
+              impactam positivamente os negócios. Minha jornada inclui projetos em
+              diferentes setores, sempre focando em resultados mensuráveis e
+              interpretáveis.
             </p>
           </CardContent>
         </Card>

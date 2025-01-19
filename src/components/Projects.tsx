@@ -6,23 +6,23 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Projeto 1",
-      description: "Descrição do projeto 1",
-      tech: ["React", "Node.js", "MongoDB"],
+      title: "Análise Preditiva de Vendas",
+      description: "Modelo de machine learning para previsão de vendas utilizando séries temporais e análise de fatores sazonais.",
+      tech: ["Python", "Scikit-learn", "Pandas", "Prophet"],
       github: "#",
       live: "#"
     },
     {
-      title: "Projeto 2",
-      description: "Descrição do projeto 2",
-      tech: ["TypeScript", "Express", "PostgreSQL"],
+      title: "Dashboard de Métricas",
+      description: "Dashboard interativo para visualização de KPIs e métricas de negócio em tempo real.",
+      tech: ["Power BI", "SQL", "DAX", "Python"],
       github: "#",
       live: "#"
     },
     {
-      title: "Projeto 3",
-      description: "Descrição do projeto 3",
-      tech: ["Next.js", "Tailwind", "Prisma"],
+      title: "Classificação de Imagens",
+      description: "Sistema de classificação de imagens utilizando deep learning e redes neurais convolucionais.",
+      tech: ["TensorFlow", "Keras", "OpenCV", "NumPy"],
       github: "#",
       live: "#"
     }
