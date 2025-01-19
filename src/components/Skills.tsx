@@ -4,9 +4,9 @@ import { Badge } from "./ui/badge";
 const Skills = () => {
   const skills = [
     "Python", "R", "SQL", "Machine Learning",
-    "Deep Learning", "Pandas", "NumPy", "Scikit-learn",
-    "TensorFlow", "Power BI", "Tableau", "Statistics",
-    "Data Visualization", "Big Data", "AWS", "Git"
+    , "Pandas", "NumPy", "Scikit-learn",
+    , "Statistics",
+    "Data Visualization", "Big Data", "Git"
   ];
 
   return (
