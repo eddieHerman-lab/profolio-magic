@@ -74,6 +74,12 @@ const Projects = () => {
                       GitHub
                     </a>
                   </Button>
+                  <Button variant="outline" size="sm" className="border-2 hover:bg-gray-50 transition-all duration-300" asChild>
+                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Demo
+                    </a>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
