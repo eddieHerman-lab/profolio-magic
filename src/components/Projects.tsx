@@ -28,7 +28,15 @@ const Projects = () => {
       github: "https://github.com/eddieHerman-lab/Analise_Student_addiction_Dataset",
       live: "#",
       image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
-    }
+    },
+    {
+      title: "Análise de Sentimento",
+      description: "Este projeto utiliza técnicas de processamento de linguagem natural (NLP) para realizar análises de sentimento em textos. A aplicação identifica emoções predominantes (positivas, negativas ou neutras) e gera insights úteis para tomada de decisões baseadas em texto.",
+      tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib","Seaborn","NLTK"],
+      github: "https://github.com/eddieHerman-lab/Analise-de-sentimento",
+      live: "#",
+      image: "https://buzzmonitor.com.br/wp-content/uploads/from-pyro-cms/capa-sentimento-editada-171218_2.jpg.webp"
+    },
   ];
 
   return (
