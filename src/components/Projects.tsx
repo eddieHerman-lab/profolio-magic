@@ -71,13 +71,7 @@ const Projects = () => {
                   <Button variant="outline" size="sm" className="border-2 hover:bg-gray-50 transition-all duration-300" asChild>
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
-                      GitHub-Link
-                    </a>
-                  </Button>
-                  <Button variant="outline" size="sm" className="border-2 hover:bg-gray-50 transition-all duration-300" asChild>
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Demo
+                      GitHub
                     </a>
                   </Button>
                 </div>
