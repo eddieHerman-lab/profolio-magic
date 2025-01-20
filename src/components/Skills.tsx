@@ -6,7 +6,7 @@ const Skills = () => {
     "Python", "R", "SQL", "Machine Learning",
     , "Pandas", "NumPy", "Scikit-learn",
     , "Statistics",
-    "Data Visualization", "Big Data", "Git"
+    "Data Visualization", "Git"
   ];
 
   return (
