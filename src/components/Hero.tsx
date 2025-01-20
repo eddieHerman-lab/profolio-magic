@@ -6,10 +6,9 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center pt-16 bg-white">
       <div className="text-center space-y-8 animate-slide-up px-4">
         <div className="relative w-32 h-32 mx-auto mb-8">
-          {/* Você pode adicionar sua foto aqui - recomendo usar o Gravatar ou LinkedIn */}
           <img
-            src="seu-link-da-foto-aqui"
-            alt="Seu Nome"
+            src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+            alt="Profile"
             className="rounded-full w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
           />
         </div>

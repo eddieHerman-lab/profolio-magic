@@ -7,27 +7,27 @@ const Projects = () => {
   const projects = [
     {
       title: "Análise preditiva de preços de diamantes",
-      description: "Análise e investigação das relações entre as variáveis de um conjunto de dados de diamantes e prever os preços com base em variáveis como o peso (WEIGHT) e características categóricas (como COLOR e RATE). Para melhorar o desempenho preditivo e lidar com multicolinearidade, foram aplicadas técnicas de regularização (Ridge, Lasso e ElasticNet)..",
+      description: "Análise e investigação das relações entre as variáveis de um conjunto de dados de diamantes e prever os preços com base em variáveis como o peso (WEIGHT) e características categóricas.",
       tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib","Seaborn"],
       github: "https://github.com/eddieHerman-lab/Analise_Diamantes",
       live: "#",
-      image: ""
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
     },
     {
       title: "Sistema de recomendação de filmes",
-      description: "Este projeto implementa um sistema de recomendação utilizando várias abordagens, incluindo recomendações colaborativas simples, baseadas em conteúdo, híbridas e de popularidade. O sistema foi desenvolvido utilizando Python, Flask e Streamlit. .",
+      description: "Sistema de recomendação utilizando várias abordagens, incluindo recomendações colaborativas simples, baseadas em conteúdo, híbridas e de popularidade.",
       tech: ["Python", "Streamlit", "Flask", "Machine learning"],
       github: "https://github.com/eddieHerman-lab/recommender_system_project",
       live: "#",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=500"
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
     },
     {
-      title: "Analise Exploratorio de vicio de estudantes",
-      description: "Sistema de classificação de imagens utilizando deep learning e redes neurais convolucionais.",
+      title: "Análise Exploratória de vícios de estudantes",
+      description: "Análise detalhada de padrões comportamentais e fatores que influenciam vícios em estudantes.",
       tech: ["Python", "Numpy", "pandas", "Matplotlib","Machine learning"],
       github: "https://github.com/eddieHerman-lab/Analise_Student_addiction_Dataset",
       live: "#",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800&h=500"
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
     }
   ];
 
@@ -44,7 +44,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="project-image object-cover w-full h-full grayscale"
+                  className="project-image object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
                 />
               </div>
               <CardHeader>
