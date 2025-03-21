@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
@@ -12,7 +11,7 @@ const Projects = () => {
       tech: ["Python", "SVM", "Machine Learning", "SHAP", "LIME", "Scikit-learn"],
       github: "https://github.com/eddieHerman-lab/cancer-diagnosis-svm",
       live: "#",
-      image: "https://img.freepik.com/premium-photo/medical-technology-concept-remote-medicine-graphical-interface-showing-digital-health-care-electronic-medical-record-patient-s-health-information-digital-monitoring-healthcare-iot_127669-771.jpg",
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
       icon: TestTube
     },
     {
