@@ -1,17 +1,28 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, TestTube, Brain, FileBarChart } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Diagnóstico de Câncer de Mama com SVM",
+      description: "Um sistema de apoio a diagnóstico de câncer de mama utilizando Support Vector Machines (SVM) com técnicas de Machine Learning, explicabilidade (SHAP e LIME) e visualização interativa. Classifica tumores mamários em benignos e malignos com base no dataset 'Breast Cancer Wisconsin'.",
+      tech: ["Python", "SVM", "Machine Learning", "SHAP", "LIME", "Scikit-learn"],
+      github: "https://github.com/eddieHerman-lab/cancer-diagnosis-svm",
+      live: "#",
+      image: "https://images.unsplash.com/photo-1576671414121-aa2d70fabcea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      icon: TestTube
+    },
     {
       title: "Análise preditiva de preços de diamantes",
       description: "Análise e investigação das relações entre as variáveis de um conjunto de dados de diamantes e prever os preços com base em variáveis como o peso (WEIGHT) e características categóricas.",
       tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib","Seaborn"],
       github: "https://github.com/eddieHerman-lab/Analise_Diamantes",
       live: "#",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      icon: FileBarChart
     },
     {
       title: "Sistema de recomendação de filmes",
@@ -19,7 +30,8 @@ const Projects = () => {
       tech: ["Python", "Streamlit", "Flask", "Machine learning"],
       github: "https://github.com/eddieHerman-lab/recommender_system_project",
       live: "#",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      icon: Brain
     },
     {
       title: "Análise Exploratória de vícios de estudantes",
@@ -54,6 +66,11 @@ const Projects = () => {
                   alt={project.title}
                   className="project-image object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-500"
                 />
+                {project.icon && (
+                  <div className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md">
+                    <project.icon className="w-5 h-5 text-gray-700 hover:text-blue-500 transition-colors" />
+                  </div>
+                )}
               </div>
               <CardHeader>
                 <CardTitle className="text-xl tracking-tight hover-gradient">{project.title}</CardTitle>
