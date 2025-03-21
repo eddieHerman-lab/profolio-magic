@@ -12,7 +12,7 @@ const Projects = () => {
       tech: ["Python", "SVM", "Machine Learning", "SHAP", "LIME", "Scikit-learn"],
       github: "https://github.com/eddieHerman-lab/cancer-diagnosis-svm",
       live: "#",
-      image: "https://miro.medium.com/v2/resize:fit:1400/1*Hl-XEzUnXguUi1OGuK-5kQ.png",
+      image: "https://img.freepik.com/premium-photo/medical-technology-concept-remote-medicine-graphical-interface-showing-digital-health-care-electronic-medical-record-patient-s-health-information-digital-monitoring-healthcare-iot_127669-771.jpg",
       icon: TestTube
     },
     {
