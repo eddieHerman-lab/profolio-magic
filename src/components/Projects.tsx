@@ -46,7 +46,7 @@ const Projects = () => {
       tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib","Seaborn","NLTK"],
       github: "https://github.com/eddieHerman-lab/Analise-de-sentimento",
       live: "#",
-      image: "https://buzzmonitor.com.br/wp-content/uploads/from-pyro-cms/capa-sentimento-editada-171218_2.jpg.webp"
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
     },
   ];
 
